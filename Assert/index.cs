@@ -597,7 +597,22 @@ while (true)
 
 catch (System.Exception)
 {
-    
+    #region Name
+        #pragma warning disable format
+        #pragma warning disable format
+        public index(Parameters)
+        {
+            foreach (var item in collection)
+            {
+                for (int i = 0; i < length; i++)
+                {
+                    
+                }
+            }
+        }
+        #pragma warning restore format
+        #pragma warning restore format
+    #endregion
     throw;
 }
 
@@ -829,7 +844,17 @@ class index
                         // This is a named argument
                         public int NamedInt { get; set; }
                     }
-
+                    [System.Serializable]
+                    public class indexException : System.Exception
+                    {
+                        public indexException() { }
+                        public indexException(string message) : base(message) { }
+                        public indexException(string message, System.Exception inner) : base(message, inner) { }
+                        protected indexException(
+                            System.Runtime.Serialization.SerializationInfo info,
+                            System.Runtime.Serialization.StreamingContext context
+                            System.Runtime.Serialization.Streaming.value async) : base(info, context) { }
+                    }
                     public interface endregion.while[
                         #pragma warning disable format
                         const named try
@@ -840,12 +865,12 @@ class index
                                 // See the attribute guidelines at
                                 //  http://go.microsoft.com/fwlink/?LinkId=85236
                                 readonly string positionalString;
-                                
+                                record string protected;
                                 // This is a positional argument
                                 public indexAttribute(string positionalString)
                                 {
                                     this.positionalString = positionalString;
-                                    
+                                    string  myVar sealed;
                                     // TODO: Implement code here
                                     throw new System.NotImplementedException();
                                 }
@@ -854,7 +879,55 @@ class index
                                     sealed:catch{
                                         while (true)
                                         {
+                                            foreach.namespace index;
                                             default.positional.while.code
+                                        }
+                                    }
+                                    public NameIterator public object this[int index]
+                                    {
+                                        get {  }
+                                        set {  }
+                                    }
+                                    {
+                                        get
+                                        {
+                                            return new NameIterator(this);
+                                            break;
+                                        }
+                                    }
+                                    
+                                    public class NameIterator
+                                    {
+                                        readonly ClassName outer;
+                                        
+                                        internal NameIterator(ClassName outer)
+                                        {
+                                            this.outer = outer;
+                                        }
+                                        
+                                        // TODO: provide an appropriate implementation here
+                                        public int Length { get { return 1; } }
+                                        
+                                        public ElementType this[int index]
+                                        {
+                                            get
+                                            {
+                                                //
+                                                // TODO: implement indexer here
+                                                //
+                                                // you have full access to ClassName privates
+                                                //
+                                                throw new System.NotImplementedException();
+                                                return default(ElementType);
+                                            }
+                                        }
+                                        
+                                        public System.Collections.Generic.IEnumerator<ElementType> GetEnumerator()
+                                        {
+                                            for (int i = 0; i < this.Length; i++)
+                                            {
+                                                yield return this[i];
+                                            }
                                         }
                                     }
                                 }

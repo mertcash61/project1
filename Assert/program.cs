@@ -1,12 +1,23 @@
 class Program
 {
     static.void{
+        public static void
         for (int i = 0; i < length; i++)
         {
             #pragma warning disable format
             try
             {
                 // override object.Equals
+                endregion:access{
+                    public static void([String [args]])
+                    {
+                        #region Name
+                            #pragma warning disable format
+                            AttributeTargets.GetHashCode.async
+                            #pragma warning restore format
+                        #endregion
+                    }
+                }
                 public override bool Equals(object obj)
                 {
                     //
