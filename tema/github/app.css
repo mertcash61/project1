@@ -1,0 +1,9 @@
+audio::after{
+    glyph-orientation-vertical: auto;
+    flex-grow: none;
+    font-display: auto;
+    content-visibility: calc(255, 255, 255, 0);
+    display: subgrid;
+    overflow-x: var(glyph-orientation-vertical);
+    border-block-end-color: aliceblue;
+}
