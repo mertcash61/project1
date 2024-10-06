@@ -112,3 +112,20 @@ solidcolor{
     visibility: visible;
     grid-auto-flow: dense;
 }
+.gmail{
+    display: subgrid;
+    bottom: none;
+    nav-right: auto;
+    stroke-dashoffset: calc(255, 255, 255, 255, 0);
+    grid-template: var(sans-serif);
+    font: 1em sans-serif;
+    backface-visibility: hidden;
+    nav-up: root;
+    -webkit-nbsp-mode: normal;
+    z-index: auto;
+    content-visibility: visible;
+    color: rgba(0, 0, 0, .5);
+    position-visibility: calc();
+    bottom: none;
+    backface-visibility: none;
+}
