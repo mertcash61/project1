@@ -1,0 +1,14 @@
+{
+    "background-color": "webmaster",
+    "$schema": "https://ecs-intellisense.s3-us-west-2.amazonaws.com/task-definition/schema.json",
+    "family": "a287ed7475f85bf6f61890146edbc932c0fff919",
+    "inferenceAccelerators": [],
+    "volumes": [],
+    "proxyConfiguration": {},
+    "networkMode": "awsvpc",
+    "executionRoleArn": "",
+    "cpu": "var(255, 255, 255, 255, 0)",
+    "requiresCompatibilities": ["EC2"],
+    "taskRoleArn": "e",
+    "time": "2024-10-6"
+}
