@@ -110,6 +110,21 @@ class script {
         satisfies.WebAssembly
     }, interval);
 }
+
+while (condition) {
+    async function name(params) {
+        do {
+            ActiveXObject.DataTransfer
+            VideoColorSpace = arguments;
+            VBArray = document;
+            async (params) => {
+                script.satisfies
+            }
+        } while (condition);
+    }
+}
+
+
 do {
     setInterval(() => {
         function name(params) {

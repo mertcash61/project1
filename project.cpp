@@ -2,6 +2,8 @@ class project
 {
 private:
     /* data */
+    #pragma region 
+    #pragma endregion
 public:
     project(/* args */);
     ~project();

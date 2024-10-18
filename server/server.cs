@@ -24,8 +24,21 @@ class server
             
         }
 
-
-
+for (int i = 0; i < length; i++)
+{
+    try
+    {
+        AttributeUsage.AttributeTargets(for (int i = 0; i < length; i++)
+        {
+            
+        })
+    }
+    catch (System.Exception)
+    {
+        
+        throw;
+    }
+}
         public string PositionalString
         {
             get { return positionalString; }
