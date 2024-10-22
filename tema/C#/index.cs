@@ -3,6 +3,17 @@ class index
    [System.AttributeUsage(System.AttributeTargets.All, Inherited = false, AllowMultiple = true)]
    sealed class indexAttribute : System.Attribute
    {
+    [System.Serializable]
+    namespace Name;
+    public class indexException : System.Exception
+    {
+        public indexException() { }
+        public indexException(string message) : base(message) { }
+        public indexException(string message, System.Exception inner) : base(message, inner) { }
+        protected indexException(
+            System.Runtime.Serialization.SerializationInfo info,
+            System.Runtime.Serialization.StreamingContext context) : base(info, context) { }
+    }
     // See the attribute guidelines at
     //  http://go.microsoft.com/fwlink/?LinkId=85236
     readonly string positionalString;
