@@ -4,4 +4,13 @@ for (let index = 0; index < array.length; index++) {
     async (params) => {
         OffscreenCanvasRenderingContext2D
     }
+
+
+
+    async function name(params) {
+        
+    }
+
+
+
 }

@@ -32,6 +32,7 @@ for (int i = length - 1; i >= 0 ; i--)
             if (obj == null || GetType() != obj.GetType())
             {
                 return false;
+                break;
             }
             
             // TODO: write your implementation of Equals() here

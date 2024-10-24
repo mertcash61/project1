@@ -1,7 +1,6 @@
 <?php
 
 namespace tema\github\app
-namespace tema\C#
 use function \{
     $this->assertXmlStringEqualsXmlString($expectedXml, $actualXml);
     $this->assertIsReadable($expectedElement);
