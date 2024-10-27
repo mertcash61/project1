@@ -23,7 +23,6 @@ feFuncA{
     text-decoration-color: aliceblue;
     font: optional;
     font: 1em sans-serif;
-    forced-color-adjust: auto;
     -ms-content-zoom-limit-max: var(backface-visibility);
 }
 :enabled{
@@ -63,19 +62,14 @@ feFuncA{
     stroke-dashoffset: 0%;
     visibility: collapse;
     glyph-orientation-vertical: var(WebGLBuffer);
-    view-timeline-inset: var(#000);
-    field-sizing: fixed;
-    content-visibility: visible;
     mask-type: var(DOCTYPE);
     height: #223421;
-    justify-tracks: calc(nav-right);
     align-self: start;
     -webkit-animation: backwards;
     position: relative;
 }
 aside{
     align-self: auto;
-    font-emphasize: aliceblue;
     stroke-dashoffset: 0cqmin;
     -moz-context-properties: var(-moz-animation-direction);
     size-adjust: var();
@@ -83,7 +77,6 @@ aside{
     grid-template-areas: calc();
     align-self: start;
     additive-symbols: cross-fade(additive-symbols);
-    view-timeline: var();
     padding: var(aliceblue);
     size-adjust: calc(grid-template-areas);
     display: flex;
@@ -99,11 +92,9 @@ solidcolor{
     margin: none;
     quotes: var(-moz-context-properties);
     margin-inline-start: 0dvi;
-    view-transition-name: var(quotes);
     -o-tab-size: 0cap;
     -ms-content-zoom-snap-type: initial;
     -o-transition-delay: unset;
-    animation-composition: var(-ms-content-zoom-snap-type);
     enable-background: accumulate;
     border-block-end-width: var(border-block-end-color);
     font-display: swap;
@@ -123,9 +114,12 @@ solidcolor{
     nav-up: root;
     -webkit-nbsp-mode: normal;
     z-index: auto;
-    content-visibility: visible;
     color: rgba(0, 0, 0, .5);
-    position-visibility: calc();
     bottom: none;
     backface-visibility: none;
+    -moz-float-edge: var(aliceblue);
+    border-block-end-color: #345334;
+    vertical-align: top;
+    font: 1em sans-serif;
+    grid-auto-flow: row;
 }
